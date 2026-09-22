@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>C0H3N'5 D15C</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         BACKGROUND MUSIC
+
+         YOUR MUSIC FILE:
+         music/White Light.mp3
+
+         MUSIC STARTS WHEN THE ENTER BUTTON IS CLICKED
+         AND LOOPS FOREVER
+    ====================================================== -->
+
+    <audio id="background-music" loop>
+
+        <source
+            src="music/White Light.mp3"
+            type="audio/mpeg"
+        >
+
+    </audio>
+
+
+
+<!-- =========================================================
+     COHEN'S MEMORY DATABASE
+
+     WEBSITE MOVES LEFT → RIGHT.
+
+     PAGE 1 BACKGROUND = splash.jpg
+
+     PAGE 2+ BACKGROUND = bluebby.jpg
+========================================================= -->
+
+
+<div class="timeline">
+
+
+
+    <!-- =====================================================
+         PAGE 1
+         SPLASH SCREEN
+
+         BACKGROUND IMAGE IS:
+         img/splash.jpg
+
+         DO NOT PUT AN IMAGE TAG HERE.
+         THE BACKGROUND IS ADDED IN CSS.
+    ====================================================== -->
+
+    <section
+        class="page splash-page"
+        id="home"
+    >
+
+
+        <!-- little floating Y2K text -->
+
+        <div class="corner-text">
+
+            (EST. 2006)
+
+        </div>
+
+
+
+        <div class="floating-text">
+
+            (07/25/2006)
+
+        </div>
+
+
+
+        <!-- MAIN TITLE -->
+
+        <div class="splash-title">
+
+
+            <div class="medium-title">
+
+                (HELLL000000 1Nt3rn3t)
+
+            </div>
+
+
+            <h1>
+
+                Memory Disc:
+
+                <br>
+                Cohen D. Russell
+
+            </h1>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             MAIN ENTER BUTTON
+
+             CLICKING THIS:
+             1. STARTS WHITE LIGHT.MP3
+             2. TAKES YOU INTO MEMORY 001
+        ================================================== -->
+
+        <a
+            href="#memory1"
+            class="enter-button"
+        >
+
+            3nt3r m3m0r135
+
+        </a>
+
+
+
+        <!-- decorative Y2K box -->
+
+        <div class="mini-window">
+
+
+            <div class="mini-window-bar">
+
+                (AG3: 20)
+
+                <span>
+                    ×
+                </span>
+
+            </div>
+
+
+            <div class="mini-window-content">
+
+                (Everyone is always connected)
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="bottom-placeholder">
+
+            (Loading memorie5)
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- =====================================================
+         PAGE 2
+         MEMORY 001
+
+         BACKGROUND IMAGE:
+         img/bluebby.jpg
+    ====================================================== -->
+
+    <section
+        class="page memory-page"
+        id="memory1"
+    >
+
+
+        <div class="top-placeholder">
+
+            model 0
+
+        </div>
+
+
+
+        <div class="memory-layout">
+
+
+
+            <!-- =================================================
+                 MEMORY PHOTO #1
+
+                 PUT YOUR IMAGE INSIDE YOUR img FOLDER.
+
+                 THEN CHANGE:
+
+                 photo1.jpg
+
+                 EXAMPLE:
+
+                 If your image is named coffee.jpg:
+
+                 src="img/coffee.jpg"
+            ================================================== -->
+
+            <div class="image-window">
+
+
+                <div class="window-bar">
+
+
+                    <span>
+
+                        CR3AT10N
+
+                    </span>
+
+
+                    <div class="window-buttons">
+
+                        <span>_</span>
+                        <span>□</span>
+                        <span>×</span>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <img
+                    src="img/photo1.jpg"
+                    alt="Memory 1"
+                >
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 MEMORY INFORMATION
+            ================================================== -->
+
+            <div class="memory-info">
+
+
+
+                <!-- PUT TIME HERE -->
+
+                <div class="memory-time">
+
+                    Here begins the story of Model 0.
+
+                </div>
+
+
+
+                <!-- PUT MEMORY NAME HERE -->
+
+                <h2>
+
+                    Model 0's first memory
+
+                </h2>
+
+
+
+                <!-- PUT DESCRIPTION HERE -->
+
+                <div class="description-box">
+
+                    Model 0 was planted in San Francisco with the intention to observe and learn human behaviors. Model 0 contains no memories of it's past. 
+
+                </div>
+
+
+
+                <!-- GO TO NEXT MEMORY -->
+
+                <a
+                    href="#memory2"
+                    class="next-link"
+                >
+
+                    next memory &gt;&gt;
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="giant-number">
+
+            01
+
+        </div>
+
+
+
+        <div class="side-placeholder">
+
+            Model 0 has deleted all memories from it's physical form.
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- =====================================================
+         PAGE 3
+         MEMORY 002
+
+         BACKGROUND:
+         img/bluebby.jpg
+    ====================================================== -->
+
+    <section
+        class="page memory-page"
+        id="memory2"
+    >
+
+
+        <div class="top-placeholder">
+
+            model 0
+
+        </div>
+
+
+
+        <div class="memory-layout layout-two">
+
+
+
+            <!-- =================================================
+                 MEMORY PHOTO #2
+
+                 CHANGE:
+
+                 photo2.jpg
+
+                 TO YOUR IMAGE NAME.
+            ================================================== -->
+
+            <div class="image-window">
+
+
+                <div class="window-bar">
+
+
+                    <span>
+
+                        N3W H0M3
+
+                    </span>
+
+
+                    <div class="window-buttons">
+
+                        <span>_</span>
+                        <span>□</span>
+                        <span>×</span>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <img
+                    src="img/photo2.jpg"
+                    alt="Memory 2"
+                >
+
+
+            </div>
+
+
+
+            <div class="memory-info">
+
+
+
+                <!-- TIME -->
+
+                <div class="memory-time">
+
+                    First Emotion
+
+                </div>
+
+
+
+                <!-- MEMORY NAME -->
+
+                <h2>
+
+                    Belonging.
+
+                </h2>
+
+
+
+                <!-- DESCRIPTION -->
+
+                <div class="description-box">
+
+                    Model 0 feels as though it belongs in San Francisco. Little to no explanation why. Systems display feeling at peace.
+
+                </div>
+
+
+
+                <a
+                    href="#memory3"
+                    class="next-link"
+                >
+
+                    next memory &gt;&gt;
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="giant-number">
+
+            02
+
+        </div>
+
+
+
+        <div class="side-placeholder">
+
+            Model 0 has deleted all memories from it's physical form.
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- =====================================================
+         PAGE 4
+         MEMORY 003
+
+         BACKGROUND:
+         img/bluebby.jpg
+    ====================================================== -->
+
+    <section
+        class="page memory-page"
+        id="memory3"
+    >
+
+
+        <div class="top-placeholder">
+
+            model 0
+
+        </div>
+
+
+
+        <div class="memory-layout layout-three">
+
+
+
+            <!-- =================================================
+                 MEMORY PHOTO #3
+
+                 CHANGE:
+
+                 photo3.mov
+            ================================================== -->
+
+            <div class="image-window">
+
+
+                <div class="window-bar">
+
+
+                    <span>
+
+                        3MPL0Y33
+
+                    </span>
+
+
+                    <div class="window-buttons">
+
+                        <span>_</span>
+                        <span>□</span>
+                        <span>×</span>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <img
+                    src="img/photo3.mov"
+                    alt="Memory 3"
+                >
+
+
+            </div>
+
+
+
+            <div class="memory-info">
+
+
+
+                <div class="memory-time">
+
+                    Oh my god, we hired a robot.
+
+                </div>
+
+
+
+                <h2>
+
+                    First day at work!
+
+                </h2>
+
+
+
+                <div class="description-box">
+
+                    Model 0 wrapped 57323489 hot dogs for the FIFA WORLD CUP. Model saved money to study abroad! Little does it know it is being shut down after the experiment is over. 
+
+                </div>
+
+
+
+                <a
+                    href="#memory4"
+                    class="next-link"
+                >
+
+                    next memory &gt;&gt;
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="giant-number">
+
+            03
+
+        </div>
+
+
+
+        <div class="side-placeholder">
+
+            Model 0 has deleted all memories from it's physical form.
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- =====================================================
+         PAGE 5
+         MEMORY 004
+
+         BACKGROUND:
+         img/bluebby.jpg
+    ====================================================== -->
+
+    <section
+        class="page memory-page"
+        id="memory4"
+    >
+
+
+        <div class="top-placeholder">
+
+            model 0
+
+        </div>
+
+
+
+        <div class="memory-layout layout-four">
+
+
+
+            <!-- =================================================
+                 MEMORY PHOTO #4
+
+                 CHANGE:
+
+                 photo4.jpg
+            ================================================== -->
+
+            <div class="image-window">
+
+
+                <div class="window-bar">
+
+
+                    <span>
+
+                        DUMPTRUCK A$$
+
+                    </span>
+
+
+                    <div class="window-buttons">
+
+                        <span>_</span>
+                        <span>□</span>
+                        <span>×</span>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <img
+                    src="img/photo4.jpg"
+                    alt="Memory 4"
+                >
+
+
+            </div>
+
+
+
+            <div class="memory-info">
+
+
+
+                <div class="memory-time">
+
+                    White robot on the beat. 
+
+                </div>
+
+
+
+                <h2>
+
+                    Boogie
+
+                </h2>
+
+
+
+                <div class="description-box">
+
+                    Today model 0 learned how to throw it in a circle. We have yet to decide if this is beneficial to the research. 
+
+                </div>
+<a href="#memory5" class="next-link">
+    next memory &gt;&gt;
+</a>
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="giant-number">
+
+            04
+
+        </div>
+
+
+
+        <div class="side-placeholder">
+
+            Model 0 has deleted all memories from it's physical form.
+
+    
+
+        </div>
+        
+
+
+    </section>
+
+    
+
+
+<!-- Add before the closing </div> for .timeline -->
+
+<section class="page memory-page" id="memory5">
+    <div class="top-placeholder">New Device</div>
+
+    <div class="memory-layout">
+        <div class="image-window">
+            <div class="window-bar">
+                <span>P0K3'M0N</span>
+                <div class="window-buttons">
+                    <span>_</span><span>□</span><span>×</span>
+                </div>
+            </div>
+            <img src="img/photo5.mov" alt="Memory 5">
+        </div>
+
+        <div class="memory-info">
+            <div class="memory-time">new discovery</div>
+            <h2>ANOTHER WORLD</h2>
+            <div class="description-box">model0 has discovered poke'mon.</div>
+            <a href="#memory6" class="next-link">next memory &gt;&gt;</a>
+        </div>
+    </div>
+
+    <div class="giant-number">05</div>
+    <div class="side-placeholder">Model 0 has deleted all memories from it's physical form.</div>
+</section>
+
+
+<section class="page memory-page" id="memory6">
+    <div class="top-placeholder">Model 0</div>
+
+    <div class="memory-layout">
+        <div class="image-window">
+            <div class="window-bar">
+                <span>ERROR ERROR ERROR ERROR ERROR</span>
+                <div class="window-buttons">
+                    <span>_</span><span>□</span><span>×</span>
+                </div>
+            </div>
+            <img src="img/photo6.jpg" alt="Memory 6">
+        </div>
+
+        <div class="memory-info">
+            <div class="memory-time">ERROR</div>
+            <h2>MALFUNCTION</h2>
+            <div class="description-box">Model 0 is experiencing a malfunction that causes it to stick out it's tongue involuntarily. Hopefully no humans notice.</div>
+            <a href="#memory7" class="next-link">next memory &gt;&gt;</a>
+        </div>
+    </div>
+
+    <div class="giant-number">06</div>
+    <div class="side-placeholder">Model 0 has deleted all memories from it's physical form.</div>
+</section>
+
+
+<section class="page memory-page" id="memory7">
+    <div class="top-placeholder">Model 0</div>
+
+    <div class="memory-layout">
+        <div class="image-window">
+            <div class="window-bar">
+                <span>EMMA MANAGBANAG</span>
+                <div class="window-buttons">
+                    <span>_</span><span>□</span><span>×</span>
+                </div>
+            </div>
+            <img src="img/photo7.jpeg" alt="Memory 7">
+        </div>
+
+        <div class="memory-info">
+            <div class="memory-time">Model 0's new friend</div>
+            <h2>Keeping Company</h2>
+            <div class="description-box">Model 0 has made it's first human friend. However the human has some suspicions considering model 0's face likes to appear on her screen while she works. It just wants to keep her company.</div>
+            <a href="#memory8" class="next-link">next memory &gt;&gt;</a>
+        </div>
+    </div>
+
+    <div class="giant-number">07</div>
+    <div class="side-placeholder">Model 0 has deleted all memories from it's physical form.</div>
+</section>
+
+
+<section class="page memory-page" id="memory8">
+    <div class="top-placeholder">Model 0</div>
+
+    <div class="memory-layout">
+        <div class="image-window">
+            <div class="window-bar">
+                <span>Design</span>
+                <div class="window-buttons">
+                    <span>_</span><span>□</span><span>×</span>
+                </div>
+            </div>
+            <img src="img/photo8.jpg" alt="Memory 8">
+        </div>
+
+        <div class="memory-info">
+            <div class="memory-time">Model 0 likes art.</div>
+            <h2>Outing with new friend</h2>
+            <div class="description-box">Model 0 went out with it's new human friend Emma Managbanag. Emma let model 0 know that she is aware that it is a robot and that she will keep it's secret. Thank goodness.</div>
+            <a href="#memory9" class="next-link">next memory &gt;&gt;</a>
+        </div>
+    </div>
+
+    <div class="giant-number">08</div>
+    <div class="side-placeholder">Model 0 has deleted all memories from it's physical form.</div>
+</section>
+
+
+<section class="page memory-page" id="memory9">
+    <div class="top-placeholder">Model 0</div>
+
+    <div class="memory-layout">
+        <div class="image-window">
+            <div class="window-bar">
+                <span>Sea Friend</span>
+                <div class="window-buttons">
+                    <span>_</span><span>□</span><span>×</span>
+                </div>
+            </div>
+            <img src="img/photo9.jpg" alt="Memory 9">
+        </div>
+
+        <div class="memory-info">
+            <div class="memory-time">I promise I won't eat you.</div>
+            <h2>Crab</h2>
+            <div class="description-box">Model 0 met a crab on the beach. It promised not to eat it and warned the crab of the human's evil intentions...</div>
+            <a href="#memory10" class="next-link">next memory &gt;&gt;</a>
+        </div>
+    </div>
+
+    <div class="giant-number">09</div>
+    <div class="side-placeholder">Model 0 has deleted all memories from it's physical form.</div>
+</section>
+
+
+<section class="page memory-page" id="memory10">
+    <div class="top-placeholder">Model 0</div>
+
+    <div class="memory-layout">
+        <div class="image-window">
+            <div class="window-bar">
+                <span>small things</span>
+                <div class="window-buttons">
+                    <span>_</span><span>□</span><span>×</span>
+                </div>
+            </div>
+            <img src="img/photo10.jpg" alt="Memory 10">
+        </div>
+
+        <div class="memory-info">
+            <div class="memory-time">Model 0 is taking notice.</div>
+            <h2>Stained Glass</h2>
+            <div class="description-box">Model 0 is starting to appreciate all kinds of small things we usually think of as irrelevant. Maybe we will keep this thing around. </div>
+            <a href="#memory11" class="next-link">next memory &gt;&gt;</a>
+        </div>
+    </div>
+
+    <div class="giant-number">10</div>
+    <div class="side-placeholder">Model 0 has deleted all memories from it's physical form.</div>
+</section>
+
+
+<section class="page memory-page" id="memory11">
+    <div class="top-placeholder">Model 0</div>
+
+    <div class="memory-layout">
+        <div class="image-window">
+            <div class="window-bar">
+                <span>Planet Fitness Subscription gone to waste</span>
+                <div class="window-buttons">
+                    <span>_</span><span>□</span><span>×</span>
+                </div>
+            </div>
+            <img src="img/photo11.jpeg" alt="Memory 11">
+        </div>
+
+        <div class="memory-info">
+            <div class="memory-time">Model 0 wanted to get shredded.</div>
+            <h2>Massage Chair</h2>
+            <div class="description-box">Model 0 wanted to get a snatched waist and a toned body so we allowed it to use the company Planet Fitness membership. We later found Model 0 had abused the privilege.</div>
+            <!-- In MEMORY 011, replace the exit link with: -->
+<a href="#memory12" class="next-link">
+    next memory &gt;&gt;
+</a>
+
+            
+        </div>
+    </div>
+
+    <div class="giant-number">11</div>
+    <div class="side-placeholder">Model 0 has deleted all memories from it's physical form.</div>
+
+    
+</section>
+
+
+<!-- Add before the closing </div> for .timeline -->
+
+<section class="page memory-page" id="memory12">
+    <div class="top-placeholder">Model 0</div>
+
+    <div class="memory-layout">
+        <div class="image-window">
+            <div class="window-bar">
+                <span>Where he is meant to be.</span>
+                <div class="window-buttons">
+                    <span>_</span><span>□</span><span>×</span>
+                </div>
+            </div>
+
+            <img src="img/photo12.mov" alt="Memory 12">
+        </div>
+
+        <div class="memory-info">
+            <div class="memory-time">Model 0 makes a name for himself.</div>
+            <h2>Cohen David Russell</h2>
+            <div class="description-box">Today we decided to let Model 0 continue living its life after the experiment. Model 0 has a name and a new family. </div>
+
+            <a href="#home" class="next-link">
+                &lt;&lt; exit memories?
+            </a>
+        </div>
+    </div>
+
+    <div class="giant-number">12</div>
+    <div class="side-placeholder">Model 0 has deleted all memories from it's physical form.</div>
+</section>
+
+
+</div>
+
+
+
+<!-- =========================================================
+     MUSIC CONTROLS
+
+     DO NOT DELETE THIS.
+
+     WHEN SOMEONE CLICKS THE ENTER BUTTON,
+     WHITE LIGHT.MP3 STARTS PLAYING.
+
+     "loop" ON THE AUDIO ELEMENT MAKES IT RESTART
+     EVERY TIME THE SONG ENDS.
+========================================================= -->
+
+<script>
+
+    const music = document.getElementById("background-music");
+
+    const enterButton = document.querySelector(".enter-button");
+
+
+    enterButton.addEventListener("click", function () {
+
+        music.play();
+
+    });
+
+</script>
+
+
+</body>
+
+</html>
